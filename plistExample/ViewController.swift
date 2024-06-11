@@ -28,7 +28,6 @@ class ViewController: UIViewController {
         
         print(country)
         print(carBrands)
-        print("hello")
         tableView.delegate = self
         tableView.dataSource = self
     }
